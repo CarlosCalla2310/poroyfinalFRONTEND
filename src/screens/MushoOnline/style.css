@@ -1,0 +1,1204 @@
+.musho-online {
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.musho-online .type-floating {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  padding: 8px;
+  position: absolute;
+  top: 0;
+  width: 1613px;
+  z-index: 6;
+}
+
+.musho-online .brand {
+  align-items: center;
+  align-self: stretch;
+  background-color: #181517;
+  border-radius: 16px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  padding: 0px 16px 0px 8px;
+  position: relative;
+}
+
+.musho-online .img {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.musho-online .text-wrapper {
+  color: #f7fffb;
+  font-family: "Work Sans", Helvetica;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 19.2px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+  width: -moz-fit-content;}
+
+.musho-online .nav-links {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 16px;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.musho-online .div {
+  align-items: center;
+  align-self: stretch;
+  border-radius: 16px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 12px;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.musho-online .nav-link {
+  align-items: center;
+  align-self: stretch;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  padding: 0px 16px;
+  position: relative;
+}
+
+.musho-online .button {
+  all: unset;
+  align-items: center;
+  background-color: #181517;
+  border: 1px solid;
+  border-color: #f7fffb;
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  height: 43px;
+  justify-content: center;
+  padding: 12px 20px;
+  position: relative;
+}
+/* Agrega un puntero al botón para indicar que es interactivo */
+.musho-online .button {
+  cursor: pointer;
+  /* Agrega transiciones suaves */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Cambios al pasar el ratón sobre el botón */
+.musho-online .button:hover {
+  background-color: #00a695;
+  color: #181517;
+}
+
+/* Cambios al hacer clic en el botón */
+.musho-online .button:active {
+  background-color: #00897b;
+  color: #fff;
+}
+
+.musho-online .text-container {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  padding: 0px 4px;
+  position: relative;
+}
+
+.musho-online .CTA {
+  all: unset;
+  box-sizing: border-box;
+  color: #f7fffb;
+  font-family: "Work Sans", Helvetica;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 19.2px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+  width: -moz-fit-content;}
+
+.musho-online .text-container-wrapper {
+  all: unset;
+  align-items: center;
+  background-color: #00a695;
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  justify-content: center;
+  padding: 12px 20px;
+  position: relative;
+}
+
+.musho-online .type-vertical {
+  align-items: center;
+  align-self: stretch;
+  background-color: #f7fffb;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 32px;
+  justify-content: center;
+  padding: 152px 16px 120px;
+  position: relative;
+  width: 100%;
+  z-index: 5;
+}
+
+.musho-online .image-container {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.musho-online .image-dalle {
+  flex: 1;
+  flex-grow: 1;
+  height: 344px;
+  max-width: 604px;
+  object-fit: cover;
+  position: relative;
+}
+
+.musho-online .copy-component {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  max-width: 840px;
+  position: relative;
+  width: 100%;
+}
+
+.musho-online .heading-text {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.musho-online .heading {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  align-self: stretch;
+  color: #1d1a1c;
+  display: -webkit-box;
+  font-family: "Work Sans", Helvetica;
+  font-size: 67px;
+  font-weight: 700;
+  letter-spacing: -1.34px;
+  line-height: 69.7px;
+  margin-top: -1px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  text-overflow: ellipsis;
+}
+
+.musho-online .subheading {
+  align-self: stretch;
+  color: #353a37;
+  font-family: "Work Sans", Helvetica;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 28.6px;
+  position: relative;
+  text-align: center;
+}
+
+.musho-online .CTA-button {
+  align-items: center;
+  align-self: stretch;
+  background-color: #00a695;
+  border-radius: 8px;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  justify-content: center;
+  max-width: 360px;
+  padding: 16px 48px;
+  position: relative;
+  width: 100%;
+}
+
+.musho-online .CTA-2 {
+  all: unset;
+  box-sizing: border-box;
+  color: #f7fffb;
+  font-family: "Work Sans", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 25.2px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+  width: -moz-fit-content;}
+
+.musho-online .type-super-grid {
+  align-items: center;
+  align-self: stretch;
+  background-color: #181517;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  padding: 120px 16px;
+  position: relative;
+  width: 100%;
+  z-index: 4;
+}
+
+.musho-online .content {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  max-width: 1280px;
+  position: relative;
+  width: 100%;
+}
+
+.musho-online .heading-container {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: flex-end;
+  max-width: 800px;
+  position: relative;
+  width: 100%;
+}
+
+.musho-online .heading-2 {
+  align-self: stretch;
+  color: #f7fffb;
+  font-family: "Work Sans", Helvetica;
+  font-size: 51px;
+  font-weight: 700;
+  letter-spacing: -1.02px;
+  line-height: 61.2px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.musho-online .text-wrapper-2 {
+  align-self: stretch;
+  color: #d0dbd6;
+  font-family: "Work Sans", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 21px;
+  position: relative;
+}
+
+.musho-online .showcase-grid {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  gap: 40px 40px;
+  position: relative;
+  width: 100%;
+}
+
+.musho-online .cards {
+  align-items: flex-start;
+  background-color: #2a2629;
+  border-radius: 20px 20px 12px 12px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 16px;
+  justify-content: center;
+  max-width: 360px;
+  min-width: 280px;
+  padding: 12px;
+  position: relative;
+}
+
+.musho-online .image-aisplash {
+  align-self: stretch;
+  height: 224px;
+  object-fit: cover;
+  position: relative;
+  width: 100%;
+}
+
+.musho-online .copy {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.musho-online .feature-title {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  align-self: stretch;
+  color: #f7fffb;
+  display: -webkit-box;
+  font-family: "Work Sans", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 25.2px;
+  margin-top: -1px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  text-overflow: ellipsis;
+}
+
+.musho-online .type-mobile-download {
+  align-items: center;
+  align-self: stretch;
+  background-color: #181517;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 48px;
+  justify-content: center;
+  padding: 104px 16px;
+  position: relative;
+  width: 100%;
+  z-index: 3;
+}
+
+.musho-online .container {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  gap: 48px 48px;
+  justify-content: center;
+  max-width: 1200px;
+  position: relative;
+}
+
+.musho-online .copy-component-2 {
+  align-items: flex-start;
+  background-color: #181517;
+  border-radius: 32px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 32px;
+  justify-content: center;
+  max-width: 524px;
+  min-width: 304px;
+  position: relative;
+}
+
+.musho-online .heading-text-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.musho-online .heading-3 {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  align-self: stretch;
+  color: #f7fffb;
+  display: -webkit-box;
+  font-family: "Work Sans", Helvetica;
+  font-size: 51px;
+  font-weight: 700;
+  letter-spacing: -1.02px;
+  line-height: 61.2px;
+  margin-top: -1px;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+}
+
+.musho-online .p {
+  align-self: stretch;
+  color: #d0dbd6;
+  font-family: "Work Sans", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 25.2px;
+  position: relative;
+}
+
+.musho-online .app-download-combo {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  gap: 16px 16px;
+  position: relative;
+  width: 100%;
+}
+
+.musho-online .app-store {
+  background-color: #000000;
+  border-radius: 6px;
+  height: 56px;
+  overflow: hidden;
+  position: relative;
+  width: 166.6px;
+}
+
+.musho-online .apple-icon {
+  height: 30px;
+  left: 13px;
+  position: absolute;
+  top: 12px;
+  width: 25px;
+}
+
+.musho-online .app-store-2 {
+  height: 22px;
+  left: 47px;
+  position: absolute;
+  top: 25px;
+  width: 105px;
+}
+
+.musho-online .download {
+  height: 9px;
+  left: 49px;
+  position: absolute;
+  top: 12px;
+  width: 97px;
+}
+
+.musho-online .google-play {
+  height: 56px;
+  position: relative;
+  width: 189px;
+}
+
+.musho-online .visual-comp {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  max-width: 640px;
+  min-width: 420px;
+  position: relative;
+}
+
+.musho-online .device {
+  height: 540px;
+  position: relative;
+  width: 279px;
+  z-index: 1;
+}
+
+.musho-online .overlap-group {
+  background-image: url(../../../static/img/iphone-14-starlight-1.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 555px;
+  left: -6px;
+  position: relative;
+  top: -7px;
+  width: 291px;
+}
+
+.musho-online .screen-content {
+  height: 489px;
+  left: 33px;
+  object-fit: cover;
+  position: absolute;
+  top: 31px;
+  width: 226px;
+}
+
+.musho-online .background-image {
+  background-image: url(../../../static/img/background-image-aisplash.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 32px;
+  flex: 1;
+  flex-grow: 1;
+  height: 376px;
+  margin-left: -32px;
+  position: relative;
+  z-index: 0;
+}
+
+.musho-online .property-highlight {
+  align-items: center;
+  align-self: stretch;
+  background-color: #2a2629;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  padding: 120px 16px;
+  position: relative;
+  width: 100%;
+  z-index: 2;
+}
+
+.musho-online .heading-text-wrapper {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  max-width: 720px;
+  min-width: 304px;
+  position: relative;
+  width: 100%;
+}
+
+.musho-online .heading-4 {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  align-self: stretch;
+  color: #f7fffb;
+  display: -webkit-box;
+  font-family: "Work Sans", Helvetica;
+  font-size: 51px;
+  font-weight: 700;
+  letter-spacing: -1.02px;
+  line-height: 61.2px;
+  margin-top: -1px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  text-overflow: ellipsis;
+}
+
+.musho-online .subheading-2 {
+  align-self: stretch;
+  color: #d0dbd6;
+  font-family: "Work Sans", Helvetica;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 28.6px;
+  position: relative;
+  text-align: center;
+}
+
+.musho-online .price-plans {
+  align-items: center;
+  align-self: stretch;
+  border-radius: 16px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  gap: 0px 0px;
+  justify-content: center;
+  max-width: 1200px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.musho-online .plan {
+  align-items: flex-start;
+  background-color: #181517;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 24px;
+  justify-content: center;
+  min-width: 256px;
+  padding: 24px;
+  position: relative;
+}
+
+.musho-online .heading-5 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+  width: 100%;
+}
+
+.musho-online .img-2 {
+  height: 32px;
+  position: relative;
+  width: 32px;
+}
+
+.musho-online .title {
+  align-self: stretch;
+  color: #f7fffb;
+  font-family: "Work Sans", Helvetica;
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: -0.76px;
+  line-height: 44.8px;
+  position: relative;
+}
+
+.musho-online .short-description {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  align-self: stretch;
+  color: #f7fffb;
+  display: -webkit-box;
+  font-family: "Work Sans", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 21px;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+}
+
+.musho-online .div-2 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.musho-online .element {
+  color: #f7fffb;
+  font-family: "Work Sans", Helvetica;
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: -0.76px;
+  line-height: 44.8px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+  width: -moz-fit-content;}
+
+.musho-online .details-container {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.musho-online .text-wrapper-3 {
+  color: #f7fffb;
+  font-family: "Work Sans", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 19.2px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+  width: -moz-fit-content;}
+
+.musho-online .yearly-switch {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+}
+
+.musho-online .switch {
+  align-items: center;
+  background-color: #00a695;
+  border-radius: 40px;
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  padding: 2px;
+  position: relative;
+  width: 26px;
+}
+
+.musho-online .circle {
+  background-color: #181517;
+  border-radius: 40px;
+  height: 12px;
+  position: relative;
+  width: 12px;
+}
+
+.musho-online .div-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.musho-online .list-item {
+  color: #d0dbd6;
+  flex: 1;
+  font-family: "Work Sans", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 21px;
+  position: relative;
+}
+
+.musho-online .div-wrapper {
+  all: unset;
+  align-items: center;
+  align-self: stretch;
+  border: 1px solid;
+  border-color: #71646c;
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  justify-content: center;
+  padding: 16px 24px;
+  position: relative;
+  width: 100%;
+}
+
+.musho-online .CTA-3 {
+  all: unset;
+  box-sizing: border-box;
+  color: #f7fffb;
+  font-family: "Work Sans", Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+  width: -moz-fit-content;}
+
+.musho-online .price {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  position: relative;
+}
+
+.musho-online .element-2 {
+  color: #f7fffb;
+  font-family: "Manrope", Helvetica;
+  font-size: 18px;
+  font-weight: 700;
+  height: 28px;
+  letter-spacing: 0;
+  line-height: 25.2px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: 23px;
+}
+
+.musho-online .button-2 {
+  all: unset;
+  align-items: center;
+  align-self: stretch;
+  background-color: #00a695;
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  justify-content: center;
+  padding: 16px 24px;
+  position: relative;
+  width: 100%;
+}
+
+.musho-online .property-steps {
+  align-items: center;
+  align-self: stretch;
+  background-color: #181517;
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  gap: 0px 0px;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.musho-online .heading-wrapper {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 12px;
+  height: 323px;
+  justify-content: center;
+  min-width: 280px;
+  padding: 16px;
+  position: relative;
+}
+
+.musho-online .heading-container-2 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+  max-width: 480px;
+  position: relative;
+  width: 100%;
+}
+
+.musho-online .image-aisplash-2 {
+  height: 140px;
+  object-fit: cover;
+  position: relative;
+  width: 140px;
+}
+
+.musho-online .heading-6 {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  align-self: stretch;
+  color: #f7fffb;
+  display: -webkit-box;
+  font-family: "Work Sans", Helvetica;
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: -0.76px;
+  line-height: 44.8px;
+  margin-top: -1px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  text-overflow: ellipsis;
+}
+
+.musho-online .subheading-3 {
+  align-self: stretch;
+  color: #d0dbd6;
+  font-family: "Work Sans", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 25.2px;
+  position: relative;
+  text-align: center;
+}
+
+.musho-online .steps-wrapper {
+  align-items: center;
+  background-color: #2a2629;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  gap: 40px 40px;
+  height: 640px;
+  justify-content: center;
+  min-width: 280px;
+  padding: 24px;
+  position: relative;
+}
+
+.musho-online .how-it-works-grid {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  gap: 40px 40px;
+  justify-content: center;
+  max-width: 640px;
+  position: relative;
+}
+
+.musho-online .step {
+  align-items: flex-start;
+  border-radius: 32px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 4px;
+  min-width: 264px;
+  padding: 16px 24px;
+  position: relative;
+}
+
+.musho-online .step-title {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  align-self: stretch;
+  color: #f7fffb;
+  display: -webkit-box;
+  font-family: "Work Sans", Helvetica;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 28.6px;
+  margin-top: -1px;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+}
+
+.musho-online .step-description {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  align-self: stretch;
+  color: #d0dbd6;
+  display: -webkit-box;
+  font-family: "Work Sans", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 21px;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+}
+
+.musho-online .type-with-newsletter {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: #181517;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 32px;
+  padding: 64px 32px;
+  position: relative;
+  width: 100%;
+  z-index: 0;
+}
+
+.musho-online .content-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  gap: 40px 40px;
+  max-width: 1200px;
+  min-width: 280px;
+  position: relative;
+  width: 100%;
+}
+
+.musho-online .list {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 16px;
+  min-width: 108px;
+  position: relative;
+}
+
+.musho-online .list-heading {
+  color: #f7fffb;
+  font-family: "Work Sans", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 25.2px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+  width: -moz-fit-content;}
+
+.musho-online .list-link-item {
+  color: #d0dbd6;
+  font-family: "Work Sans", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 21px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+  width: -moz-fit-content;
+}
+
+.musho-online .list-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 108px;
+  position: relative;
+}
+
+.musho-online .list-heading-2 {
+  align-self: stretch;
+  color: #f7fffb;
+  font-family: "Work Sans", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 25.2px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.musho-online .input-with-button {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  min-width: 296px;
+  position: relative;
+}
+
+.musho-online .input {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+  position: relative;
+  width: 243px;
+}
+
+.musho-online .input-form {
+  align-items: center;
+  align-self: stretch;
+  background-color: #181517;
+  border: 1px solid;
+  border-color: #40393d;
+  border-radius: 8px 0px 0px 8px;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  padding: 16px;
+  position: relative;
+  width: 100%;
+}
+
+.musho-online .placeholder-text {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  background: none;
+  border: none;
+  color: #d0dbd6;
+  display: -webkit-box;
+  flex-grow: 1;
+  font-family: "Work Sans", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: -1px;
+  overflow: hidden;
+  padding: 0px 4px;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.musho-online .button-3 {
+  height: 53px;
+  position: relative;
+  width: 53px;
+}
+
+.musho-online .links {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  position: relative;
+}
+
+.musho-online .list-link-item-2 {
+  color: #d0dbd6;
+  font-family: "Work Sans", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 19.2px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+  width: -moz-fit-content;
+}
